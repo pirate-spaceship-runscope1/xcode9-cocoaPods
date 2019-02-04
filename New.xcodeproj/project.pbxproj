@@ -624,15 +624,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-        "CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 9KBH5RKYEW;
+				DEVELOPMENT_TEAM = UBF8T346G9;
 				INFOPLIST_FILE = New/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.microsoft.CleanReactNative-df";
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.runscope.all;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-        PROVISIONING_PROFILE = "7f1b44a8-ad56-47da-a3c3-ee6f0301b982";
-        PROVISIONING_PROFILE_SPECIFIER = "Meirav Developer";
+				PROVISIONING_PROFILE_SPECIFIER = "Appcenter Runscope Test Development";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -644,15 +643,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-        "CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 9KBH5RKYEW;
+				DEVELOPMENT_TEAM = UBF8T346G9;
 				INFOPLIST_FILE = New/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.microsoft.CleanReactNative-df";
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.runscope.all;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-        PROVISIONING_PROFILE = "7f1b44a8-ad56-47da-a3c3-ee6f0301b982";
-        PROVISIONING_PROFILE_SPECIFIER = "Meirav Developer";
+				PROVISIONING_PROFILE_SPECIFIER = "Appcenter Runscope Test Development";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -664,12 +662,14 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5Z97G9NZQ6;
+				DEVELOPMENT_TEAM = UBF8T346G9;
 				INFOPLIST_FILE = NewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = de.bowstreet.ios.NewTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.runscope.allTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/New.app/New";
@@ -682,12 +682,14 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5Z97G9NZQ6;
+				DEVELOPMENT_TEAM = UBF8T346G9;
 				INFOPLIST_FILE = NewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = de.bowstreet.ios.NewTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.runscope.allTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/New.app/New";
@@ -699,12 +701,14 @@
 			baseConfigurationReference = 0798B7F9330B49C5D5DB859D /* Pods-NewUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5Z97G9NZQ6;
+				DEVELOPMENT_TEAM = UBF8T346G9;
 				INFOPLIST_FILE = NewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = de.bowstreet.ios.NewUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.runscope.allUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = New;
@@ -716,12 +720,14 @@
 			baseConfigurationReference = 02265BFD800E192D1EB95FFD /* Pods-NewUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5Z97G9NZQ6;
+				DEVELOPMENT_TEAM = UBF8T346G9;
 				INFOPLIST_FILE = NewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = de.bowstreet.ios.NewUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.runscope.allUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = New;
